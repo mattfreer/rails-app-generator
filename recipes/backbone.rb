@@ -1,4 +1,4 @@
-if yes? "Do you want to use backbone-on-rails"
+if yes? "Do you want to use backbone-on-rails?"
   gem "backbone-on-rails"
   backbone_install_command = "rails generate backbone:install --javascript"
 
