@@ -5,6 +5,6 @@ This template provides some opinionated defaults for new Ruby on Rails 3 applica
 ##Usage
 To use with your Rails apps, use the `-m` switch when creating your application:
 ```ruby
-rails new foo -d postgresql -m https://github.com/mattfreer/rails-app-generator/blob/master/templater.rb
+rails new foo -d postgresql -m https://github.com/mattfreer/rails-app-generator/blob/master/template.rb
 ```
 
