@@ -7,5 +7,7 @@ if yes? "Do you want to use backbone-on-rails?"
     puts "Beginning Backbone install"
     run backbone_install_command
   end
+
+  apply recipe('backbone_support')
 end
 
