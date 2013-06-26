@@ -7,6 +7,7 @@ if yes? "Do you want to use backbone-support?"
     insert_into_file "app/assets/javascripts/#{ manifest }", :after => "//= require backbone\n" do
       <<-END
 //= require backbone-support/support
+//= require backbone-support/swapping_router
 //= require backbone-support/observer
 //= require backbone-support/composite_view
       END
