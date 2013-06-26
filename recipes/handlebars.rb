@@ -3,6 +3,7 @@ if yes? "Do you want to use handlebars_assets?"
 
   stategies << lambda do
     puts "Beginning handlebars install"
+    create_file "app/assets/templates/.gitkeep"
     manifest = "application.js"
     insert_into_file "app/assets/javascripts/#{ manifest }", :before => "//= require_tree ../templates\n" do
       "//= require handlebars\n"
