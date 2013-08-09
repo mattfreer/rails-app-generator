@@ -5,6 +5,5 @@ if yes? "Do you want to use bower?"
   stategies << lambda do
     puts "Beginning Bower install"
     run bower_install_command
-    add_gitkeeps
   end
 end
